@@ -1,2 +1,2 @@
-# site-playstation
- Cópia do Site Playstation (Sony)
+# site-Nubank
+ Cópia de site para fins de aprendizagem.
