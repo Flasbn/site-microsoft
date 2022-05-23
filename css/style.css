@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+body {
+    height: 2000px;
+}
+
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-start;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+
+nav{
+    display:flex;
+    justify-content: center;
+    flex-direction:row;
+    padding-top: 5px;
+}
+
+nav li,a {
+    padding: 5px;
+    text-decoration: none;
+    text-decoration: none;
+    color:rgb(17, 17, 17) ;
+}
+
+nav img {
+    text-decoration:underline;
+    transition: .5s;
+}
+
+nav img:hover {
+    text-decoration:underline;
+    transition: .5s;
+    transform: rotate(0.5turn);
+}
+
+#principalpage::after {
+    content: "";
+    position: absolute;
+    left: 365px;
+    margin-top: 5px;
+    border-radius: 5px;
+    display: block;
+    width: 5px;
+    height: 5px;
+    background-color: rgb(130,10,209);
+}
+
+/*BOTÃO LOGIN*/
+.login {
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.login p{
+    padding-top: 10px;
+    color: rgb(130, 10, 209);
+}
+
+.login a {
+    text-decoration: none;
+}
+
+.login a:hover {
+    transition: .5s;
+    transform: rotate(1.0turn);
+}
+
+.login img {
+    padding-top: 5px;
+}
+
+.layoutprincipal::before {
+    content: "";
+    width: 100%;
+    height: 5px;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    box-shadow: rgb(17 17 17 / 10%) 0px 1px 1px;
+}
+
+/*LAYOUT PRINCIPAL*/
+section img {
+    width: 100%;
+}
